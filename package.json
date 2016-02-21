@@ -10,8 +10,10 @@
     "url": "https://github.com/bitcoinjs/bip32/issues"
   },
   "license": "MIT",
-  "files": [],
-  "main": "",
+  "files": [
+    "lib"
+  ],
+  "main": "./lib/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/bitcoinjs/bip32.git"
@@ -21,7 +23,14 @@
     "test": "npm run standard && npm run unit",
     "unit": "nyc ava"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bs58check": "^1.0.8",
+    "create-hash": "^1.1.2",
+    "create-hmac": "^1.1.4",
+    "randombytes": "^2.0.2",
+    "secp256k1": "^3.0.0",
+    "typeforce": "^1.6.2"
+  },
   "devDependencies": {
     "ava": "^0.12.0",
     "nyc": "^5.6.0",

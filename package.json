@@ -1,0 +1,33 @@
+{
+  "name": "bip32",
+  "version": "1.0.0",
+  "description": "BIP32: Hierarchical Deterministic Wallets",
+  "keywords": [
+    "bitcoin",
+    "bip32"
+  ],
+  "bugs": {
+    "url": "https://github.com/bitcoinjs/bip32/issues"
+  },
+  "license": "MIT",
+  "files": [],
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitcoinjs/bip32.git"
+  },
+  "scripts": {
+    "standard": "standard",
+    "test": "npm run standard && npm run unit",
+    "unit": "nyc ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.12.0",
+    "nyc": "^5.6.0",
+    "standard": "^6.0.7"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
